@@ -2,7 +2,7 @@
 
 Formulário de login simples e responsivo desenvolvido em React, com validação básica de e-mail e senha.
 
-![preview](./preview.png) *(opcional: adicione um print se tiver)*
+
 
 ## ✨ Funcionalidades
 - Validação de e-mail e senha
