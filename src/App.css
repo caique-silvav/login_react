@@ -1,0 +1,91 @@
+.App {
+  width: 100%;
+  max-width: 420px;
+  padding: 0 16px;
+}
+
+.card {
+  background: transparent;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.072);
+  width: 100%;
+  text-align: center;
+}
+
+.card h1 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: #f3eded;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #423f3f;
+  margin-bottom: 1.5rem;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #f3eded;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #c3c3c3;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background: transparent;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #646464;
+  box-shadow: 0 0 0 3px rgba(94, 94, 94, 0.713);
+}
+
+button {
+  width: 100%;
+  padding: 0.875rem;
+  background: #686868;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #686868;
+  box-shadow: 0 6px 20px rgba(31, 14, 14, 0.483);
+  transition: 0.5s;
+}
+
+.footer-text {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.footer-text a {
+  color: #ede5e5;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
